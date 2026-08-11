@@ -37,7 +37,7 @@ WELCOME MESSAGE
 ================================ */
 
 console.log(
-"Welcome to Ndapewoshali Huakena's Portfolio 💗"
+"Welcome to Ndapewoshali Haukena's Portfolio 💗"
 );
 
 /* ===============================
