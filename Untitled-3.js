@@ -1,0 +1,53 @@
+/* ===============================
+MOBILE MENU
+================================ */
+
+const menuBtn = document.getElementById("menuBtn");
+
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", function () {
+
+```
+navLinks.classList.toggle("active");
+```
+
+});
+
+/* ===============================
+CLOSE MENU AFTER CLICKING LINK
+================================ */
+
+const links = document.querySelectorAll(".nav-links a");
+
+links.forEach(function (link) {
+
+```
+link.addEventListener("click", function () {
+
+    navLinks.classList.remove("active");
+
+});
+```
+
+});
+
+/* ===============================
+WELCOME MESSAGE
+================================ */
+
+console.log(
+"Welcome to Ndapewoshali Huakena's Portfolio 💗"
+);
+
+/* ===============================
+PAGE LOAD MESSAGE
+================================ */
+
+window.addEventListener("load", function () {
+
+```
+console.log("Portfolio loaded successfully! 🌸");
+```
+
+});
